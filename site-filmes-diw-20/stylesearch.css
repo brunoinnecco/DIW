@@ -1,0 +1,108 @@
+body{
+    background-color: #151c2b;
+}
+
+*body {
+    background-color: #151c2b;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.card{
+    color: aliceblue;
+    background-color: #010713;
+    max-width: 22%;
+    margin-top: 8%;
+    border-radius: 8px;
+}
+.card img{
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+header{
+    margin-top: 12px;
+}
+
+form.form-[type=text] {
+    transition: 0.4s;
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.form- button {
+    height: 4.5vh;
+    width: 5vh;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.form- button:hover {
+    background: lightcoral;
+  }
+  
+  form.form-::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#home {
+    color: grey;
+}
+
+nav-link {
+    color: grey;
+}
+
+nav-link:hover {
+    color: #f1f1f1;
+}
+
+#home:hover {
+    color: #f1f1f1;
+}
+
+#current {
+    color: white;
+}
+
+  #barra {
+    height: 4vh;
+    width: 70%;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .card{
+        margin:10%;
+        max-width: 70%;
+        max-height: 70%;
+    }
+    .card img{
+        width:100%;
+    }
+}
+.navbar-brand{
+    width: 3%;
+    height: 3%;
+}
+.topo{
+    background-color: #010713;
+}
